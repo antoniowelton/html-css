@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho de Fontes com CSS</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        
+            /* ###################################################################################################################
+
+            MEDIDAS ABSOLUTAS:
+
+                cm, mm, in(polegada), px, pt(ponto), pc(paica) ;
+            
+            MEDIDAS RELATIVAS: 
+
+                em - (medida relativa ao tamanho da letra 'M' de uma fonte),
+                ex - (medida relativa à altura 'x' de uma fonte),
+                rem - (medida relativa ao tamanho M 'root' no body), 
+                vw - (view widht - largura da view port / largura da tela), 
+                vh - (altura da view port), 
+                % - (porcentagem da largura da tela)
+
+             ####################################################################################################################   
+            */
+
+            /*
+                16px = 1em = TAMANHO PADRÃO DA FONTE NOS NAVEGADORES
+            */
+
+            font-size: 1em;
+        } 
+        
+
+        h1 {
+                 /*
+                    shorthand (mãozinha) font
+                    - font-style -> font-weight -> font-size -> font-family
+
+                    font-family: 'work sans', sans-serif;
+                    font-weight: bolder;
+                    font-size: 3em;
+                    font-style: italic;
+                 */
+                font: italic bolder 3em 'work sans', sans-serif;
+        }
+
+
+        h2 {
+                font: bold 2em 'work sans', sans-serif;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Exemplo de tamanho de fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi suscipit beatae illo ut, porro accusamus animi asperiores voluptas consequuntur doloribus commodi nihil blanditiis accusantium, dolor quidem quod ipsum molestiae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab corrupti omnis repellat accusantium obcaecati minus, ipsum quisquam sed blanditiis, vel, necessitatibus iste cum! Praesentium, odit laborum fuga quibusdam atque delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel recusandae suscipit minima velit, unde nulla, praesentium maxime tempora nihil inventore consectetur illum. Sunt accusamus ipsum, laudantium perferendis ab nulla amet! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima omnis ab molestiae placeat voluptate voluptatibus eos vel distinctio, consequatur a dolore saepe aspernatur qui sunt corrupti, obcaecati perspiciatis hic exercitationem. <br> <br>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi eaque iusto magni tempora suscipit dignissimos hic, nostrum at! Laborum facere unde pariatur nisi corporis iusto autem vitae est odit ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, consectetur consequatur? Exercitationem deserunt, asperiores illum voluptate assumenda distinctio animi accusantium quod magnam repudiandae aut? Ab quae qui iusto ipsam eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatem ipsa incidunt. Reprehenderit eum beatae asperiores, placeat eaque commodi voluptatibus recusandae odit architecto praesentium nulla molestiae unde? Iure, assumenda perspiciatis!</p>
+
+    <h2>Outro exemplo de tamanho de fontes</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem molestias dolore distinctio vero cum saepe, sint dicta maiores iusto! Officia, sequi maiores. Corporis consequatur distinctio earum amet tempora voluptatem iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, consequatur, ea fuga quia similique debitis delectus commodi dolores, dolorum velit odit minima neque tenetur fugit officia quam sint necessitatibus ab. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad eum recusandae, soluta dolor porro ut. Nisi perferendis maiores non tempore modi nesciunt debitis iste quidem, aperiam nulla eligendi laboriosam ratione.
+    </p>
+</body>
+</html>

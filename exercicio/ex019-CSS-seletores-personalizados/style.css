@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(226, 236, 208);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*EM HTML ID     = # em CSS (só pode um elemento)*/
+
+/*Em HTML CLASS  = . em CSS (Pode vários elementos)*/
+
+h1{
+    color: rgb(52, 71, 18);
+}
+
+/*########################################################################################################################*/
+
+/* Personalizando um seletor H1 principal do site com uma ID */
+
+h1#principal{
+    text-align: center;
+    background-color: darkolivegreen;
+    color: bisque;
+}
+/*########################################################################################################################*/
+h2{
+    color: rgb(94, 120, 33);
+}
+
+.basico{    
+    color: rgb(94, 120, 33);    
+}
+
+.intermediario{
+    color: rgb(120, 116, 33);
+}
+
+.avancado{
+    color: rgb(120, 33, 33);
+}
+
+.destaque{
+    background-color: rgb(45, 88, 2);
+}
+p{
+    text-indent: 30px;
+}

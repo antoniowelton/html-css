@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir essas imagens em vários aparelhos diferentes ou use o seu navegador para testá-las.</p>
+
+
+
+
+    <!-- ********************************************************************************************************************-->
+<!-- Bloco de comandos para inserir imagens dinâmicas na sua página html5-->
+<!--
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagen grande flexível">
+    </picture>
+-->
+<!-- ********************************************************************************************************************-->
+<!-- Bloco de comandos para inserir imagens dinâmicas na sua página html5-->
+<!-- ********************************************************************************************************************-->
+
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/goku-cropado-300.png" type="image/png">
+    <source media="(max-width: 1250px )" srcset="imagens/goku-cropado-700.png" type="image/png">
+    <img src="imagens/goku-cropado-1200.png" alt="Imagen do Goku">
+
+</picture>
+<h2>Inserindo um áudio:</h2>
+<p>A seguir, vamos incluir uma música da biblioteca do YouTube Studio.</p>
+
+<ol>
+    <li>
+        <audio preload="metadata" autoplay controls>
+            <source src="audios/the-high-line-causmic.mp3" type="audio/mpeg"> <!--Buscando o áudio dentro da pasta audios com o tipo mp3-->
+            <source src="audios/the-high-line-causmic.ogg" type="audio/ogg"> <!--Caso o tipo pm3 acima não caregue, o browser tentará carragar esse outro formato de áudio-->
+            <p>Seu navegador não pode reproduzir esse áudio. <a href="audios/the-high-line-causmic.mp3" download="the-high-line-causmic.mp3" type="audio/mpeg">Fazer download.</a>
+        </audio>
+        
+    </li>
+    <li>
+        <audio preload="metadata" autoplay controls>
+            <source src="audios/electro-figth-kwon.mp3" type="audio/mpeg">
+        </audio>
+    </li>
+    
+    <li>
+        <audio preload="metadata" autoplay controls>
+            <source src="audios/finally-the-sum-audio-hertz.mp3" type="audio/mpeg">
+        </audio>
+    </li>
+    
+    <li>
+        <audio preload="metadata" autoplay controls>
+            <source src="audios/luck-witch-audio-hertz.mp3" type="audio/mpeg">
+        </audio>
+    </li>
+    
+    <li>
+        <audio preload="metadata" autoplay controls>
+            <source src="audios/mitigated-suffering-alge.mp3" type="audio/mpeg">            
+        </audio>
+    </li>
+</ol>
+
+
+
+
+</body>
+</html>

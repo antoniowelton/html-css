@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            background-color: bisque;
+            
+        }
+        a{
+            color: blueviolet;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover{
+            color: rgb(49, 94, 5);
+            text-decoration: underline;            
+        }
+        a:visited{
+            color: rgb(0, 94, 255);
+        }
+        a:active{
+            color: darkcyan;
+        }
+        .especial{
+            background-color: aquamarine;
+        }
+        .especial::before{
+            content: '⇒';
+        }
+        .especial::after{
+            content: '⇐';
+        }
+
+        p{
+            text-align: justify;
+            text-indent: 30px;
+            width: 400px;
+            height: 100px;
+            background-color: blanchedalmond;
+            margin: 10px;
+            border: 5px solid green;
+            outline: 3px solid black;
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links com CSS</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/ant.welton/" target="_blank" rel="external">Meu Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/antonio-welton-barbosa-silva-5ba495172/" target="_blank" rel="external">Meu LinkedIn</a></li>
+        <li><a href="https://www.youtube.com/channel/UCUGzgJpi0E9SV2RzKSalhrw" target="_blank" rel="external" class="especial">Canal do YouTube</a></li>
+    </ul>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque vitae soluta minus eligendi mollitia sed eveniet eaque. At modi, libero quia, quae nihil accusantium, ea cupiditate iste accusamus porro unde?
+    </p>
+</body>
+</html>

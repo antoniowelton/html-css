@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: sketch;
+    src: url(fontes/Sketchzone.otf) format('opentype');
+    font-weight: 200;
+    font-style: normal;
+
+}
+/*corpo da tabela*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+/*título h1*/
+
+h1{
+    font-family: 'sketch', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 3em;
+    color: darkolivegreen;
+}
+
+
+p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color: rgb(101, 90, 76);
+}
+
+
+
+.hidrogenio{
+    background-color: darkolivegreen;
+}
+.hidrogenio:hover{
+    background-color: aliceblue;
+}
+
+
+
+
+.metaisalcalinos{
+    background-color: firebrick;
+}
+.metaisalcalinos:hover{
+    background-color: aliceblue;
+}
+
+
+
+
+.metaisalcalinosterrosos{
+    background-color: darkorange;
+}
+.metaisalcalinosterrosos:hover{
+    background-color: aliceblue;
+}
+
+
+
+
+.metaisdetransicao{
+    background-color: chartreuse;
+}
+.metaisdetransicao:hover{
+    background-color: aliceblue;
+}
+
+
+
+
+.metaispostransicao{
+    background-color: deeppink;
+}
+.metaispostransicao:hover{
+    background-color: aliceblue;
+}
+
+
+
+
+.gasesnobres{
+    background-color: blueviolet;
+}
+.gasesnobres:hover{
+    background-color: aliceblue;
+}
+
+
+.naometaisdiatomicos{
+    background-color: orangered;
+}
+.naometaisdiatomicos:hover{
+    background-color: aliceblue;
+}
+
+
+
+.semimetais{
+    background-color: gold;
+}
+.semimetais:hover{
+    background-color: aliceblue;
+}
+
+.naometaispoliatomicos{
+    background-color: forestgreen;
+}
+.naometaispoliatomicos:hover{
+    background-color: aliceblue;
+}
+
+
+.propquimicasdesc{
+    background-color: rgb(122, 120, 120);
+}
+.propquimicasdesc:hover{
+    background-color: aliceblue;
+}
+
+
+
+
+.lantanideos{
+    background-color: blue;
+}
+.lantanideos:hover{
+    background-color: aliceblue;
+}
+
+
+
+
+.actinideos{
+    background-color: rgb(71, 71, 250);
+}
+.actinideos:hover{
+    background-color: aliceblue;
+}
