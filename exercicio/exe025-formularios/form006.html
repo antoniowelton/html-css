@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários com Cores</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+        }
+        fieldset {
+            margin-bottom: 1em;
+            margin-left: 1em;
+            
+        }
+        fieldset > input {
+            margin-left: 1em;
+            
+        }
+        input {
+            margin-left: 2em;
+            background-color: rgb(171, 183, 183);
+            
+        }
+        input:hover {
+            background-color: rgb(211, 234, 234);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulários com Cores</h1>
+    
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <fieldset>
+            <legend>Escolha uma cor</legend>
+
+            <!-- Colocando um 'input' do tipo 'ecolha de cor'  -->
+
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="color" name="cor" id="icor" value="#00ff00">
+            </p>
+
+            <!-- Colocando um 'input' do tipo 'range'  -->
+
+            <p>
+                <label for="inivel">Nível de Satisfação:</label>
+
+                <!-- O padrão é um range de 0 até 100, mas pode ser alterado usando o 'min' e o 'max'-->
+
+                <input type="range" name="nivel" id="inivel" min="1" max="7">
+            </p>
+
+            <!-- Colocando um 'input' do tipo 'file'. Escolha de arquivo!  -->
+
+            <p>
+                <label for="ifoto">Escolha o arquivo:</label>
+                <input type="file" name="foto" id="ifoto">
+            </p>
+            
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
