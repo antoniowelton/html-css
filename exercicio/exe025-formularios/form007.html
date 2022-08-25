@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Select</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+        }
+        fieldset {
+            margin-bottom: 1em;
+            margin-left: 1em;
+            
+        }
+        fieldset > input {
+            margin-left: 1em;
+            
+        }
+        input {
+            margin-left: 2em;
+            background-color: rgb(171, 183, 183);
+            
+        }
+        input:hover {
+            background-color: rgb(211, 234, 234);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Prencha os campos abaixo</legend>
+            <p>
+                <label for="iest">Estado:</label>
+                <select name="estado" id="iest">
+                    <!-- Região Nordeste -->
+                    <optgroup label="Região Nprdeste">
+                        <option value="AL">Alagoas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE" selected>Ceará</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="SE">Sergipe</option>
+                    </optgroup>
+                     <!-- Região Sul -->
+                    <optgroup label="Região Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                    </optgroup>
+            
+                     <!-- Região Sudeste -->
+            
+            
+                    <optgroup label="Região Sudeste">
+                        <option value="ES">Espírito Santo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                    </optgroup>
+                     <!-- Região Centro-Oeste -->
+            
+                    <optgroup label="Região Centro-Oeste">
+                        <option value="GO">Goiás</option>
+                        <option value="MT">Mato Grosso </option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                    </optgroup>
+            
+                     <!-- Região Norte -->
+                    <optgroup label="Região Sul">
+                        <option value="AC">Acre</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="PA">Pará</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="TO">Tocantins</option>
+            
+                    </optgroup>
+                </select>
+            </p>
+
+            <P>
+                <label for="iprof">Profissão:</label>
+                <input type="text" name="prof" id="iprof" list="listaprofissao">
+
+                <datalist id="listaprofissao">                    
+                    <option value="ADM">Administrador</option>
+                    <option value="DEV">Desenvolvedor</option>
+                    <option>Contador</option>
+                    <option>Atleta</option>
+                    <option>Operador de Máquinas</option>
+                </datalist>
+
+            </P>
+
+            <p>
+                <label for="imsg">Seu Comentário:</label> <br>
+                <textarea name="mensagem" id="imsg" cols="60" rows="10" placeholder="Escreva sua mensagem..."></textarea>
+            </p>
+
+
+
+
+
+
+        </fieldset>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        
+    </form>
+    
+</body>
+</html>
