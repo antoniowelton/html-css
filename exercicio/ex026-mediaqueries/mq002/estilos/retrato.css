@@ -3,5 +3,6 @@
 /* Aparelho na vertical  (PORTRAIT)  */
 
 body {
-    background: url(../imagens/cev-portrait.jpg);
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
 }
