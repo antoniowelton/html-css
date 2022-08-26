@@ -1,7 +1,7 @@
 # html-css
- Curso de HTML+ CSS3
+ Curso de HTML + CSS3
  
- Módulo 3 de 5 do curso de HTML5 e CSS3 do Curso em Vídeo do Professor Guanabara!
+ Módulo 4 de 5 do curso de HTML5 e CSS3 do Curso em Vídeo com o Professor Guanabara!
 
  <a href ="https://antoniowelton.github.io/html-css/2-exercicios/desafios/desafio-010-android/android.html" target="_blank"> Visite o Desafio Mascote Android!</a> <br>
 
