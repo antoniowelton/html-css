@@ -1,13 +1,23 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: sketch;
+    font-family: 'sketch';
     src: url(fontes/Sketchzone.otf) format('opentype');
     font-weight: 200;
     font-style: normal;
 
 }
 /*corpo da tabela*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*corpo da tabela*/
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -16,6 +26,9 @@ body{
 
 
 /*título h1*/
+.espandido {
+    color: blue;
+}
 
 h1{
     font-family: 'sketch', Arial, Helvetica, sans-serif;
@@ -143,3 +156,5 @@ p{
 .actinideos:hover{
     background-color: aliceblue;
 }
+
+
