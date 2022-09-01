@@ -10,9 +10,9 @@
  <a href="https://antoniowelton.github.io/projeto-socialmedia/index.html" target="_blank"> Visite o Desafio das Mídias Sociais</a> <br>
 
 
- <a href="https://antoniowelton.github.io/html-css/2-exercicios/desafios/desafio-002/index.html" target="_blank">Visite meu primeiro miniprojeto!</a>
+ <a href="https://antoniowelton.github.io/html-css/2-exercicios/desafios/desafio-002/index.html" target="_blank">Visite meu primeiro miniprojeto!</a> <br>
 
-<a href="https://antoniowelton.github.io/projeto-google-glass/index.html" target="_blank"> Visite o Desafio Google Glass</a>
+ <a href="https://antoniowelton.github.io/projeto-google-glass/index.html" target="_blank"> Visite o Desafio Google Glass</a>
  
 
 
