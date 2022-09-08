@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+    background-image: url(../imagens/paisagem650.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;  
+    padding-bottom: 200px;  
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    padding-left: 5%;
+    padding-right: 5%;    
+}
+nav h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+span {
+    color: #f9004d;
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding: 10px 15px;    
+    list-style-type: none;    
+}
+ nav > ul > li > a {
+    color: white;
+    font-size: 10px;    
+    text-decoration: none;
+    font-weight: bold; 
+    text-transform: capitalize;       
+ }
+ nav > ul > li > a:hover {    
+    color: #f9004d;
+    transform: scale(1.2);
+ }
+
+ .btn {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: transform .3s;
+ }
+ .btn:hover {
+    transform: scale(1.2);
+ }
+
+ .main {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+ }
+
+ h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+ }
+ h1 {
+    color: white;
+    margin: 20px 0px 20px 0px;
+    font-size: 50px;
+    letter-spacing: 4px;
+ }
+
+ h3 {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+ }
+ 
+ .container-btn form {
+    display: inline-block;
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+
+ }
+ .container-btn form input:first-child {
+    display: inline-block;
+    width: 100%;    
+    padding: 14px 130px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+    background-color: white;    
+ }
+  .container-btn form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.671);
+    right: 6px;
+    top: 6px;
+ }
