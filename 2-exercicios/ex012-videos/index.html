@@ -10,16 +10,26 @@
     <h1>Utilizando vídeos em meu site</h1>
     <p>Aqui está um exemplo de vídeo usando a tag &lt;video&gt;</p>
 
-    <!--
-
+    
+<!--
     <video src="videos/bandeira-brasil.mp4" width="500" controls></video>
-
-    -->
+-->
+    
 
     <p>Esse vídeo está usando o meu próprio servidor.</p>
 
-    <video width="560" poster="imagens/dbz1.jpg" controls autoplay>
+    <video width="560" poster="imagens/dbz1.jpg" controls autoplay loop>
         <source src="videos/bandeira-brasil.mp4" type="video/mp4">
+
+        <!--
+
+        <source src="videos/bandeira-brasil.mp4" type="video/mp4">     
+        <source src="videos/bandeira-brasil.m4p" type="video/m4p">
+        <source src="videos/bandeira-brasil.ogv" type="video/ogv">
+        <source src="videos/bandeira-brasil.wma" type="video/wma">
+
+        Esses formatos de vídeo serão abertos em navegadores que não suportatem os formatos a cima.
+        -->
     </video>
 
     <hr>
