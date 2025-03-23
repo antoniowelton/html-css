@@ -35,7 +35,7 @@
     }
 
     body {
-        background-image: url(../imagens/back-print.jpg); /* Não nescessário*/
+        background-image: url(../imagens/back-print.jpg); /* Não nescessário, pois nãp se imprimi imagem de background de sites*/
     }
     
     main {

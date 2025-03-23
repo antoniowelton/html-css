@@ -14,6 +14,9 @@
             width: 400px;
             border-collapse: collapse;
             border: 5px solid darkolivegreen;
+            width: 800px;
+            height: 400px;
+            font-size: larger;
         }
         tr.linha {
             background-color: darkgray;
@@ -21,6 +24,8 @@
         td {
             border: 1px solid black;
             padding: 10px;
+            font-size: larger;
+            
             text-align: center; /* Alinhamento Horizontal dentro de uma Célula */
             vertical-align: middle; /* Alinhamento Vertical dentro de uma Célula  */
         }
@@ -29,6 +34,11 @@
             text-align: right;
             background-color: darkolivegreen;
             font-weight: bolder;
+        }
+        td.especial {
+            text-align: right;
+            vertical-align: bottom;
+            font-size: xx-small;
         }
     </style>
 </head>
@@ -49,19 +59,19 @@
             <td>C1</td>
         </tr>
         <tr class="linha">
-            <td>A2</td>
+            <td class="especial">A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
         <tr>
             <td>A3</td>
-            <td>B3</td>
+            <td class="especial">B3</td>
             <td class="numero">C3</td>
         </tr>
         <tr class="linha">
             <td>A4</td>
             <td class="numero">B4</td>
-            <td>C4</td>
+            <td class="especial">C4</td>
         </tr>
 
     </table>
