@@ -20,7 +20,7 @@ header > h1 {
     text-align: center;
 }
 
-span#burguer {
+i#burguer {
     background-color: rgb(91, 91, 91);
     color: white;
     display: block;
@@ -30,7 +30,7 @@ span#burguer {
 
 }
 
-span#burguer:hover {
+i#burguer:hover {
     background-color: white;
     color: black;
 }
