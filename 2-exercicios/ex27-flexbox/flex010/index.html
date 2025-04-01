@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+     h1 {
+            text-align: center;
+            background-color: bisque;
+            font-size: .8em;
+        }
+        div.conteiner {
+            background-color: lightsalmon;
+            display: flex;  
+            flex-flow: row nowrap;       
+            
+        }
+
+        div.item {
+            background-color: lightgreen;
+            border: 1px solid black;
+            text-align: center;
+            
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+    </style>
+
+</head>
+<body>
+    <p>
+        <h1>Testando os comandos "shrink" (ENCOLHER) e "grow" (CRESCER)</h1>
+    </p>
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+<!--    <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>  -->      
+    </div>
+
+</body>
+</html>
